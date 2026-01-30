@@ -1,0 +1,25 @@
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Data validation and serialization
+pydantic==2.5.0
+
+# Optional: Database support
+# sqlalchemy==2.0.23
+# alembic==1.13.0
+
+# Optional: Authentication
+# python-jose[cryptography]==3.3.0
+# passlib[bcrypt]==1.7.4
+
+# Optional: CORS
+# python-multipart==0.0.6
+
+# Development dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2  #update it to 0.27 if you get the proxies error during open api call
